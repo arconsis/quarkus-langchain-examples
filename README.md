@@ -4,6 +4,13 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
+## Video Tutorials
+
+The following videos demonstrate and explain this code.
+
+[Video 1: Integrating ChatGPT and Hugging Face with Quarkus | LangChain for Quarkus](https://www.youtube.com/watch?v=u4SZMIlrvfs)
+
+
 ## Prerequisites
 
 This project example uses JDK 21. So please make sure you have a JDK 21 selected when building this project.
