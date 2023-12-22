@@ -19,8 +19,11 @@ dependencies {
     implementation("io.quarkus:quarkus-resteasy-reactive-jackson")
     implementation("io.quarkus:quarkus-resteasy-reactive")
 
-    implementation("io.quarkiverse.langchain4j:quarkus-langchain4j-openai:0.4.2")
-//    implementation("io.quarkiverse.langchain4j:quarkus-langchain4j-hugging-face:0.4.2")  // switch to this dependency to use HuggingFace
+    implementation("io.quarkiverse.langchain4j:quarkus-langchain4j-openai:0.5.1")
+//    implementation("io.quarkiverse.langchain4j:quarkus-langchain4j-hugging-face:0.5.1")  // switch to this dependency to use HuggingFace
+
+
+    implementation("io.quarkiverse.langchain4j:quarkus-langchain4j-redis:0.5.1")
 
     testImplementation("io.quarkus:quarkus-junit5")
     testImplementation("io.rest-assured:rest-assured")
