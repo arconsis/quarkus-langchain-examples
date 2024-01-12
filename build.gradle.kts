@@ -19,11 +19,11 @@ dependencies {
     implementation("io.quarkus:quarkus-resteasy-reactive-jackson")
     implementation("io.quarkus:quarkus-resteasy-reactive")
 
-    implementation("io.quarkiverse.langchain4j:quarkus-langchain4j-openai:0.5.1")
-//    implementation("io.quarkiverse.langchain4j:quarkus-langchain4j-hugging-face:0.5.1")  // switch to this dependency to use HuggingFace
-
+    implementation("io.quarkiverse.langchain4j:quarkus-langchain4j-openai:0.6.2")
+//    implementation("io.quarkiverse.langchain4j:quarkus-langchain4j-hugging-face:0.6.2")  // switch to this dependency to use HuggingFace
 
     implementation("io.quarkiverse.langchain4j:quarkus-langchain4j-redis:0.5.1")
+    implementation("dev.langchain4j:langchain4j-document-parser-apache-pdfbox:0.25.0")
 
     testImplementation("io.quarkus:quarkus-junit5")
     testImplementation("io.rest-assured:rest-assured")
