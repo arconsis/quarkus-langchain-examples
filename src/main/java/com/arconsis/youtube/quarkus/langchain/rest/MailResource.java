@@ -20,10 +20,4 @@ public class MailResource {
     public String sendAnEmail(@RestQuery String userId, @RestQuery String query) {
         return aiService.chatWithMailBot(userId, query);
     }
-
-    @DELETE
-    @Path("/conversation")
-    public void deleteConversation(@RestQuery String userId) {
-        ChatMemoryRemover.remove(aiService, userId);
-    }
 }
