@@ -1,15 +1,25 @@
-# quarkus-llms-java
+# Examples for the Quarkus LangChain Extension
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
-
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+
+In this tutorial series, we take a close look into the Quarkus LangChain extension ([Docs](https://docs.quarkiverse.io/quarkus-langchain4j/dev/index.html), [GitHub](https://github.com/quarkiverse/quarkus-langchain4j)).
+This is the example code to the video tutorials linked below
 
 ## Video Tutorials
 
 The following videos demonstrate and explain this code.
 
-[Video 1: Integrating ChatGPT and Hugging Face with Quarkus | LangChain for Quarkus](https://www.youtube.com/watch?v=u4SZMIlrvfs)
+* [Video 1: Integrating ChatGPT and Hugging Face with Quarkus](https://youtu.be/u4SZMIlrvfs)
+  * [Medium Post: Integrating ChatGPT & Hugging Face with Quarkus the LangChain Extension](https://medium.com/arconsis/unleashing-llms-integrating-chatgpt-hugging-face-with-quarkus-using-the-langchain-extension-022716d5f232) 
+  * [Direct Link to the Code](https://github.com/arconsis/quarkus-langchain-examples/tree/basic-quarkus-langchain-integration)
+* [Video 2: Managing Chat Memory with Stateless LLMs](https://youtu.be/L71nbLY2_5Q)
+  * [Direct Link to the Code](https://github.com/arconsis/quarkus-langchain-examples/tree/with-memory-management)
+* [Video 3: Enhancing ChatGPT with Retrieval Augmented Generation](https://youtu.be/hbPuRA525U0)
+  * [Direct Link to the Code](https://github.com/arconsis/quarkus-langchain-examples/tree/retrieval-augmented-generation)
 
+
+# Standard Quarkus README
 
 ## Prerequisites
 
